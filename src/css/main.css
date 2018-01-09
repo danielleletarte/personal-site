@@ -9,7 +9,7 @@
 [class*="col-"] {
     float: left;
     padding: 10px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
 .row::after {
@@ -27,6 +27,19 @@
     text-align: center;
     font-size: 40px;
     height: 20%;
+}
+
+#name {
+    font-family: 'Cormorant Garamond', serif;
+    letter-spacing: 7px;
+    font-size: 55px;
+}
+
+#name-subtext {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    letter-spacing: 5px;
+    padding-top: 20px;
 }
 
 .hero {
