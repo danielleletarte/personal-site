@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    border: 1px solid red;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col-1 { width: 25%;}
+.col-2 { width: 50%;}
+.col-3 { width: 75%;}
+.col-4 { width: 100%;}
+
+.header {
+    text-align: center;
+    font-size: 40px;
+    height: 20%;
+}
+
+.hero {
+    height: 60%;
+}
+
+#circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: 1px solid black; 
+  margin: 0 auto;
+}
+
+.test {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.nav-indicator {
+    height: 20%;
+}
