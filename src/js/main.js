@@ -26,6 +26,26 @@ $(document).ready( function() {
         about.className = "";
     });
     
+    os.on('enter', '.experience-page', (element, event) => {
+        var experience = document.getElementById('nav-experience');
+        experience.className = "nav-experience-active";
+    });
+    
+    os.on('leave', '.experience-page', (element, event) => {
+        var experience = document.getElementById('nav-experience');
+        experience.className = "";
+    });
+    
+    os.on('enter', '.social-page', (element, event) => {
+        var social = document.getElementById('nav-social');
+        social.className = "nav-social-active";
+    });
+    
+    os.on('leave', '.social-page', (element, event) => {
+        var social = document.getElementById('nav-social');
+        social.className = "";
+    });
+    
 });
     
     

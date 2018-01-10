@@ -109,6 +109,6 @@ body {
     width: 100%;
 }
 
-.nav-about-active {
+.nav-about-active, .nav-experience-active, .nav-social-active {
     text-decoration: underline;
 }
