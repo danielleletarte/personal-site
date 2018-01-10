@@ -16,6 +16,16 @@ $(document).ready( function() {
         menu.className = "";
     });
     
+    os.on('enter', '.about-page', (element, event) => {
+        var about = document.getElementById('nav-about');
+        about.className = "nav-about-active";
+    });
+    
+    os.on('leave', '.about-page', (element, event) => {
+        var about = document.getElementById('nav-about');
+        about.className = "";
+    });
+    
 });
     
     
