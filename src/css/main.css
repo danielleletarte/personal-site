@@ -89,17 +89,22 @@ body {
     width: 100%;
 }
 
+#menu {
+    background-color: rgba(255,255,255,0.7);
+}
+
 #menu-list {
-    padding: 0;
+    padding: 5px 0;
+    margin: 0;
 }
 
 #menu-list li {
     list-style: none;
     display: inline-block;
-    padding: 0 10%;
+    padding: 0 5%;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 7px;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .menu-fixed {
@@ -112,3 +117,32 @@ body {
 .nav-about-active, .nav-experience-active, .nav-social-active {
     text-decoration: underline;
 }
+
+#rectangle-about {
+    position: absolute;
+    left: 8%;
+    background-color: #F6E5D5;
+    height: 100%;
+    width: 8px;
+    z-index: 0;
+    margin: 0;
+}
+
+.about-text {
+    position: absolute;
+    left: 15%;
+    padding-top: 20%;
+}
+
+.about-content {
+    position: relative;
+    height: 100%;
+}
+
+p {
+    margin: 30px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    line-height: 50px;
+}
+
