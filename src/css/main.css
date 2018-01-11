@@ -118,9 +118,8 @@ body {
     text-decoration: underline;
 }
 
-#rectangle-about {
+#rectangle-about, #rectangle-experience, #rectangle-social {
     position: absolute;
-    left: 8%;
     background-color: #F6E5D5;
     height: 100%;
     width: 8px;
@@ -128,9 +127,21 @@ body {
     margin: 0;
 }
 
+#rectangle-about {
+    left: 20%;
+}
+
+#rectangle-experience {
+    left: 40%;
+}
+
+#rectangle-social {
+    left: 70%;
+}
+
 .about-text {
     position: absolute;
-    left: 15%;
+    left: 25%;
     padding-top: 20%;
 }
 
@@ -139,13 +150,32 @@ body {
     height: 100%;
 }
 
-p, .hello {
+p, li, .headings {
     margin: 30px 0;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     line-height: 50px;
 }
 
-.hello {
+.headings {
     font-weight: 700;
+}
+
+.experience-content {
+    position: relative;
+    height: 100%;
+}
+
+.experience-text {
+    position: absolute;
+    left: 45%;
+    padding-top: 20%;
+}
+
+.experience-list {
+    padding-left: 0;
+}
+
+.experience-list li {
+    line-height: 20px;
 }
