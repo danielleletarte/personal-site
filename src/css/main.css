@@ -161,6 +161,11 @@ p, .headings {
     line-height: 50px;
 }
 
+#menu-list li a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
 .experience-list li, .social-list li a:link, a:visited {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;

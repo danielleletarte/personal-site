@@ -16,32 +16,32 @@ $(document).ready( function() {
         menu.className = "";
     });
 
-    os.on('enter', '.about-page', (element, event) => {
+    os.on('enter', '.about-text', (element, event) => {
         var about = document.getElementById('nav-about');
         about.className = "nav-about-active";
     });
 
-    os.on('leave', '.about-page', (element, event) => {
+    os.on('leave', '.about-text', (element, event) => {
         var about = document.getElementById('nav-about');
         about.className = "";
     });
 
-    os.on('enter', '.experience-page', (element, event) => {
+    os.on('enter', '.experience-list', (element, event) => {
         var experience = document.getElementById('nav-experience');
         experience.className = "nav-experience-active";
     });
 
-    os.on('leave', '.experience-page', (element, event) => {
+    os.on('leave', '.experience-list', (element, event) => {
         var experience = document.getElementById('nav-experience');
         experience.className = "";
     });
 
-    os.on('enter', '.social-page', (element, event) => {
+    os.on('enter', '.social-list', (element, event) => {
         var social = document.getElementById('nav-social');
         social.className = "nav-social-active";
     });
 
-    os.on('leave', '.social-page', (element, event) => {
+    os.on('leave', '.social-list', (element, event) => {
         var social = document.getElementById('nav-social');
         social.className = "";
     });
