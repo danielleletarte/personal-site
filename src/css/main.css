@@ -7,6 +7,10 @@ body {
 }
 
 .container {
+    height: 150vh;
+}
+
+.container-home {
     height: 100vh;
 }
 
@@ -157,13 +161,19 @@ p, .headings {
     line-height: 50px;
 }
 
-.experience-list li, .social-list li {
+.experience-list li, .social-list li a:link, a:visited {
     font-family: 'Cormorant Garamond', serif;
     font-size: 25px;
     line-height: 50px;
     list-style: none;
     font-weight: 700;
     letter-spacing: 7px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: #F6E5D5;
 }
 
 .headings {
