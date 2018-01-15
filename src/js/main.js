@@ -2,6 +2,8 @@ import OnScreen from 'onscreen';
 
 $(document).ready( function() {
 
+    $(this).scrollTop(0);
+
     const os = new OnScreen({
         debounce: -5,
     });
