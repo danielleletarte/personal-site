@@ -10,7 +10,7 @@ body {
     height: 150vh;
 }
 
-.container-home, .container-social {
+.container-home, .container-social, .container-experience {
     height: 100vh;
 }
 
@@ -92,12 +92,12 @@ body {
 #name {
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 7px;
-    font-size: 70px;
+    font-size: 30px;
 }
 
 #name-subtext {
     font-family: 'Montserrat', sans-serif;
-    font-size: 40px;
+    font-size: 20px;
     font-weight: normal;
     letter-spacing: 5px;
 }
@@ -112,8 +112,8 @@ body {
 }
 
 #circle, #circle-end {
-  height: 50px;
-  width: 50px;
+  height: 45px;
+  width: 45px;
   border-radius: 50%;
   border: 2px solid black;
   margin: 0 auto;
@@ -122,7 +122,7 @@ body {
 
 #circle-end {
     position: absolute;
-    left: 68%;
+    left: 85%;
     bottom: 5%;
     margin: 0;
 }
@@ -155,10 +155,10 @@ body {
 #menu-list li {
     list-style: none;
     display: inline-block;
-    padding: 0 5%;
+    padding: 0 3%;
     font-family: 'Cormorant Garamond', serif;
     letter-spacing: 7px;
-    font-size: 35px;
+    font-size: 15px;
 }
 
 .menu-fixed {
@@ -182,21 +182,21 @@ body {
 }
 
 #rectangle-about {
-    left: 20%;
+    left: 5%;
 }
 
 #rectangle-experience {
-    left: 40%;
+    left: 30%;
 }
 
 #rectangle-social {
-    left: 70%;
+    left: 90%;
     height: 85%;
 }
 
 .about-text {
     position: absolute;
-    left: 25%;
+    left: 10%;
     padding-top: 20%;
 }
 
@@ -208,7 +208,7 @@ body {
 p, .headings, .headings-social {
     margin: 30px 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    font-size: 12px;
     line-height: 50px;
 }
 
@@ -221,8 +221,8 @@ p, .headings, .headings-social {
 
 .experience-list li, .social-list li a:link, a:visited {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 25px;
-    line-height: 50px;
+    font-size: 15px;
+    line-height: 30px;
     list-style: none;
     font-weight: 700;
     letter-spacing: 7px;
@@ -250,7 +250,7 @@ a:hover {
 
 .experience-text {
     position: absolute;
-    left: 45%;
+    left: 35%;
     padding-top: 20%;
 }
 
@@ -271,7 +271,7 @@ a:hover {
 
 .social-links {
     position: absolute;
-    right: 30%;
+    right: 10%;
     padding-top: 15%;
 }
 
@@ -294,5 +294,49 @@ a:hover {
 @media screen and (min-width : 1500px) {
     #circle-end {
         left: 69%;
+    }
+}
+
+@media only screen
+and (min-width : 414px)
+and (max-width : 736px)
+and (orientation : landscape) {
+    #hero-image {
+        max-height: 100%;
+    }
+    #circle, #circle-end {
+      height: 20px;
+      width: 20px;
+      border: 1px solid black;
+    }
+
+    #circle-end {
+        position: absolute;
+        left: 89%;
+        bottom: 5%;
+        margin: 0;
+    }
+    #name {
+        font-size: 20px;
+        margin: 0;
+    }
+
+    #name-subtext {
+        font-size: 10px;
+        font-weight: normal;
+        letter-spacing: 5px;
+        margin: 0;
+    }
+
+    #menu-list li {
+        padding: 0 7%;
+    }
+
+    .container-experience, .container-social {
+        height: 200vh;
+    }
+
+    p {
+        line-height: 25px;
     }
 }
