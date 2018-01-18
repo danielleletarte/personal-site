@@ -230,7 +230,7 @@ p, .headings, .headings-social {
     color: black;
 }
 
-a:hover {
+#social-list li a:hover, #social-list li:hover a  {
     color: #F6E5D5;
 }
 
@@ -291,12 +291,6 @@ a:hover {
     }
 }
 
-@media screen and (min-width : 1500px) {
-    #circle-end {
-        left: 69%;
-    }
-}
-
 @media only screen
 and (min-width : 414px)
 and (max-width : 736px)
@@ -312,7 +306,7 @@ and (orientation : landscape) {
 
     #circle-end {
         position: absolute;
-        left: 89%;
+        left: 84%;
         bottom: 5%;
         margin: 0;
     }
@@ -339,4 +333,151 @@ and (orientation : landscape) {
     p {
         line-height: 25px;
     }
+
+    #rectangle-about {
+        left: 15%;
+    }
+
+    #rectangle-experience {
+        left: 40%;
+    }
+
+    #rectangle-social {
+        left: 85%;
+        height: 85%;
+    }
+
+    .about-text {
+        left: 17%;
+    }
+
+    .experience-text {
+        left: 42%;
+    }
+
+    .social-links {
+        right: 16%;
+    }
+
+}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : portrait)  {
+    #menu-list li {
+        padding: 0 10%;
+    }
+
+    #circle-end {
+        left: 85%;
+    }
+
+    #rectangle-about {
+        left: 12%;
+    }
+
+    #rectangle-experience {
+        left: 40%;
+    }
+
+    #rectangle-social {
+        left: 88%;
+        height: 85%;
+    }
+
+    .about-text {
+        left: 14%;
+    }
+
+    .experience-text {
+        left: 42%;
+    }
+
+    .social-links {
+        right: 13%;
+    }
+}
+
+@media only screen
+and (min-width : 768px)
+and (max-width : 1024px)
+and (orientation : landscape) {
+    #menu-list li {
+        padding: 0 12%;
+    }
+
+    #circle-end {
+        left: 85%;
+    }
+
+    #rectangle-about {
+        left: 12%;
+    }
+
+    #rectangle-experience {
+        left: 43%;
+    }
+
+    #rectangle-social {
+        left: 87%;
+        height: 85%;
+    }
+
+    .about-text {
+        left: 14%;
+    }
+
+    .experience-text {
+        left: 45%;
+    }
+
+    .social-links {
+        right: 14%;
+    }
+}
+
+@media screen and (min-width : 1025px) {
+
+    body {
+        max-width: 1080px;
+        margin: 0 auto;
+    }
+    #menu-list li {
+        padding: 0 12%;
+    }
+
+    #circle-end {
+        left: 85%;
+    }
+
+    #rectangle-about {
+        left: 12%;
+    }
+
+    #rectangle-experience {
+        left: 43%;
+    }
+
+    #rectangle-social {
+        left: 87%;
+        height: 85%;
+    }
+
+    .about-text {
+        left: 14%;
+    }
+
+    .experience-text {
+        left: 45%;
+    }
+
+    .social-links {
+        right: 14%;
+    }
+
+    .menu-fixed {
+        max-width: 1080px;
+    }
+
 }
